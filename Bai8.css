@@ -1,0 +1,26 @@
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.content{
+    display: flex;
+    flex: 1;
+}
+.sidebar{
+    background-color: #e7d6d6;
+    width: 200px;
+    padding: 20px;
+}
+.main-content{
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{    
+    display: flex;
+    flex: 1 1 25%;
+    justify-content: center;
+    align-items: center;
+}
+#menu a{
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 5px;
+}
+#menu li:hover{
+    background: #634444;
+}
